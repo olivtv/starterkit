@@ -7,6 +7,9 @@ destiné aux étudiants imd3 de eikon
 
 1. télécharger une distribution d'initializr http://www.initializr.com
 
+   placer l'archive téléchargée dans ./ressources/scripts
+   décompresser l'archive, la renommer en mirror, et la déplacer dans ./site
+
 2. remplacer normalize.css par sanitize.css
 
    voir l'article sur http://cyrilvernier.net/teaching/ressource/css-reset.html
