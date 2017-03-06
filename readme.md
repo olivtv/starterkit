@@ -10,7 +10,30 @@ destiné aux étudiants imd3 de eikon
 2. remplacement de normalize.css par sanitize.css
 3. nettoyer le CSS de Boilerplate / initializr
 4. compléter la CSS de base
+```scss
+// ==========================================================================
+// Base
+// ==========================================================================
 
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    min-height: 100vh;
+    position: relative;
+    
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+```
 remplacer
 premières opérations (rythme vertical, établir ratio typo http://type-scale.com/, …)
 @import styles
