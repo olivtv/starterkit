@@ -1,15 +1,19 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+# starterkit
 
-# TEAM
+destiné aux étudiants imd3 de eikon
 
-    <name> -- <role> -- <twitter>
 
-# THANKS
+## workflow
 
-    <name>
+1. télécharger Boilerplate / initializr
 
-# TECHNOLOGY COLOPHON
+2. remplacement de normalize.css par sanitize.css
+3. nettoyer le CSS de Boilerplate / initializr
+4. compléter la CSS de base
 
-    HTML5, CSS3
-    jQuery, Modernizr
+remplacer
+premières opérations (rythme vertical, établir ratio typo http://type-scale.com/, …)
+@import styles
+passer styles print dans print.css
+documenter les dossiers (SMACSS), usage de partials, nomenclature des classes (anglais et bas de casse), préfixage .l-, .t- et .[module]-
+utiliser un GS dans layout
