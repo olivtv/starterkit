@@ -5,7 +5,7 @@ destiné aux étudiants imd3 de eikon
 
 ## workflow
 
-1. télécharger une distribution (http://www.initializr.com/ "d'initializr")
+1. télécharger une distribution d'initializr – (http://www.initializr.com/)
 
 2. remplacer normalize.css par sanitize.css
 
