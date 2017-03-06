@@ -5,11 +5,11 @@ destiné aux étudiants imd3 de eikon
 
 ## workflow
 
-1. télécharger une distribution d'initializr – (http://www.initializr.com/)
+1. télécharger une distribution d'initializr http://www.initializr.com
 
 2. remplacer normalize.css par sanitize.css
 
-   voir l'article sur (http://cyrilvernier.net/teaching/ressource/css-reset.html)
+   voir l'article sur http://cyrilvernier.net/teaching/ressource/css-reset.html
 
 3. nettoyer le CSS de Boilerplate / initializr
 
