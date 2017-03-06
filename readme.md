@@ -7,7 +7,8 @@ destiné aux étudiants imd3 de eikon
 
 1. télécharger Boilerplate / initializr
 
-2. remplacement de normalize.css par sanitize.css
+2. remplacer normalize.css par sanitize.css
+   _voir l'article sur (http://cyrilvernier.net/teaching/ressource/css-reset.html)_
 3. nettoyer le CSS de Boilerplate / initializr
 4. compléter la CSS de base
 ```scss
