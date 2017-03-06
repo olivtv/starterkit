@@ -7,8 +7,9 @@ destiné aux étudiants imd3 de eikon
 
 1. télécharger une distribution d'initializr http://www.initializr.com
 
-   placer l'archive téléchargée dans ./ressources/scripts
-   décompresser l'archive, la renommer en mirror, et la déplacer dans ./site
+   * placer l'archive téléchargée dans ./ressources/scripts
+
+   * décompresser l'archive, la renommer en mirror, et la déplacer dans ./site
 
 2. remplacer normalize.css par sanitize.css
 
@@ -16,11 +17,11 @@ destiné aux étudiants imd3 de eikon
 
 3. nettoyer le CSS de Boilerplate / initializr
 
-4. compléter la CSS de base
+4. compléter les déclarations de base (main.css ou _base.scss)
 ```scss
-// ==========================================================================
-// Base
-// ==========================================================================
+/* ==========================================================================
+ * Base
+ * ========================================================================== */
 
 html {
     height: 100%;
