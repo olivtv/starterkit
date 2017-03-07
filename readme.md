@@ -12,11 +12,11 @@ destiné aux étudiants imd3 de eikon
 
 2. remplacer normalize.css par sanitize.css
 
-   voir l'article sur http://cyrilvernier.net/teaching/ressource/css-reset.html
+   voir l'article *CSS reset* sur http://cyrilvernier.net/teaching/ressource/css-reset.html
 
 3. nettoyer la CSS de Boilerplate / initializr
 
-   * supprimer les styles redondants du document main.css (ne conserver que *hr* et *fieldset*, et les placer dans css/base.css ou scss/_base.scss)
+   * supprimer les styles redondants du document main.css (ne conserver que **hr** et **fieldset**, et les placer dans css/base.css ou scss/_base.scss)
    * (SCSS) renommer main.css en main.scss
    * (SCSS) séparer les styles destinés au print dans une feuille de style distincte scss/print.scss
 
@@ -33,7 +33,7 @@ html {
 
 body {
     font-size: 16px;
-    min-height: 100vh;
+    min-height: 100vh; /* force la hauteur de body */
     position: relative;
     
     text-rendering: optimizeLegibility !important;
