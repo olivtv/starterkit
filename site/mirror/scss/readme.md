@@ -61,7 +61,7 @@ Dans la pratique, certains bouts de code ne sont pas immédiatement classables. 
 
 ## print.scss
 
-Ce fichier regroupe les styles propres à l'impression. Il peut s'agir par défaut de ceux fournis par initializr, ou aller beaucoup plus loin.
+Ce fichier regroupe les styles propres à l'impression. Il peut s'agir par défaut de ceux fournis par initializr, ou proposer une mise en page totalement différente.
 
 ---
 TODO : documenter les dossiers (SMACSS), usage de partials, nomenclature des classes (anglais et bas de casse), préfixage .l-, .t- et .[module]-
