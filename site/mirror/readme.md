@@ -2,26 +2,6 @@
 
 Contient le site à proprement parler. Les dossiers et fichiers présents à ce degré d'arborescence sont essentiellement issus d'Initializr, excepté le dossier /scss.
 
-## icônes
-
-Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et Windows 9+. A conserver dans leurs dimensions initiales.
-   * apple-touch-icon.png
-   * favicon.ico (ou favicon.png)
-   * tile-wide.png
-   * tile.png
-
-Le fichier browserconfig.xml associe les fichiers correspondants à Internet Explorer et à Edge.
-
-## humans.txt
-
-Ce fichier recense les acteurs, collaborateurs, outils, ressources et autres composantes du projet.
-Utile si l'on ne peut pas signer une réalisation web.
-
-## robots.txt
-
-Ce fichier est un protocole d'exclusion des robots, à savoir les web crawlers liés aux moteurs de recherche, proposant une politique de référencement des ressource du site.
-Une documentation complète est présente sur http://robots-txt.com.
-
 ## /css
 
 Ce dossier comporte les feuilles de style en exploitation sur le site.
@@ -53,6 +33,26 @@ Ce dossier contient les scripts et frameworks utiles dans le langage JavaScript.
 ## /scss
 
 Ce dossier rassemble toutes les ressources destinées à produire le ou les fichiers css, grâce à un compilateur.
+
+## icônes
+
+Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et Windows 9+. A conserver dans leurs dimensions initiales.
+   * apple-touch-icon.png
+   * favicon.ico (ou favicon.png)
+   * tile-wide.png
+   * tile.png
+
+Le fichier browserconfig.xml associe les fichiers correspondants à Internet Explorer et à Edge.
+
+## humans.txt
+
+Ce fichier recense les acteurs, collaborateurs, outils, ressources et autres composantes du projet.
+Utile si l'on ne peut pas signer une réalisation web.
+
+## robots.txt
+
+Ce fichier est un protocole d'exclusion des robots, à savoir les web crawlers liés aux moteurs de recherche, proposant une politique de référencement des ressource du site.
+Une documentation complète est présente sur http://robots-txt.com.
 
 ---
 
