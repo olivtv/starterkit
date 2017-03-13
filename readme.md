@@ -1,7 +1,6 @@
 # starterkit
 
-
-
+Ce starterkit est un work in progress. Il a pour vocation d'harmoniser les pratiques de création de site au sein des années d'enseignement web de l'établissement eikon http://www.eikonc.ch.
 
 ## workflow
 
@@ -49,9 +48,8 @@ img {
 
 ```
 
+5. placer un éventuel gridding system dans layout
+
 TODO
-   * remplacer
    * premières opérations (rythme vertical, établir ratio typo http://type-scale.com/, …)
-   * @import styles
    * documenter les dossiers (SMACSS), usage de partials, nomenclature des classes (anglais et bas de casse), préfixage .l-, .t- et .[module]-
-   * utiliser un GS dans layout
