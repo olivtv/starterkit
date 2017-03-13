@@ -52,6 +52,7 @@ img {
 
 5. placer un éventuel gridding system dans layout
 
+---
+
 TODO
    * premières opérations (rythme vertical, établir ratio typo http://type-scale.com/, …)
-   * documenter les dossiers (SMACSS), usage de partials, nomenclature des classes (anglais et bas de casse), préfixage .l-, .t- et .[module]-
