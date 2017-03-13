@@ -4,7 +4,7 @@ Contient le site à proprement parler. Les dossiers et fichiers présents à ce 
 
 ## icônes
 
-Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et Windows 9+. Leur taille doit être conservée.
+Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et Windows 9+. A conserver dans leurs dimensions initiales.
    * apple-touch-icon.png
    * favicon.ico (ou favicon.png)
    * tile-wide.png
@@ -15,6 +15,7 @@ Le fichier browserconfig.xml associe les fichiers correspondants à Internet Exp
 ## humans.txt
 
 Ce fichier recense les acteurs, collaborateurs, outils, ressources et autres composantes du projet.
+Utile si l'on ne peut pas signer une réalisation web.
 
 ## robots.txt
 
@@ -33,7 +34,7 @@ Ce dossier rassemble les fontes web du projet, au format WOFF et WOFF2.
 ## /img
 
 Ce dossier comporte les images et ressources graphiques.
-Afin de les distinguer, préfixes et suffixes renseigneront sur l'image
+Afin de les distinguer, préfixes et suffixes renseigneront sur l'image :
    * préfixe- : caractérise le type d'image (icone, photo, background, etc)
    * nom- : identifie clairement l'image
    * suffixe1 : caractérise le type de device auquel cette image se destine
@@ -51,12 +52,13 @@ Ce dossier contient les scripts et frameworks utiles dans le langage JavaScript.
 
 ## /scss
 
-Ce dossier rassemble toutes les ressources destinées à produire le ou les fichiers css.
+Ce dossier rassemble toutes les ressources destinées à produire le ou les fichiers css, grâce à un compilateur.
 
 ---
 
 ## Autres dossiers possibles
 
-   * **video/**
-   * **fr/** si le site propose un contenu en plus d'une langue, dans ce cas ajouter les dossiers correspondants aux autres langues
+   * **assets/** contient les vidéos et l'audio
+   * **press/** pour le matériel destiné à la presse et à la communication
+   * **fr/** si le site propose son contenu en plus d'une langue, dans ce cas ajouter les dossiers correspondants aux autres langues
    * ...

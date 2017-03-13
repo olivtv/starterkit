@@ -24,9 +24,9 @@ Ce starterkit est un work in progress. Il a pour vocation d'harmoniser les prati
 4. compléter les déclarations de base (main.css ou _base.scss)
 
 ```scss
-/* ==========================================================================
- * Base
- * ========================================================================== */
+// ====================================
+// elements
+// ====================================
 
 html {
     height: 100%;
@@ -55,4 +55,4 @@ img {
 ---
 
 TODO
-   * premières opérations (rythme vertical, établir ratio typo http://type-scale.com/, …)
+   * autres opérations (rythme vertical, établir ratio typo http://type-scale.com/, …)

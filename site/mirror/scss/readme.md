@@ -3,9 +3,12 @@
 Les fichiers SCSS sont regroupés dans ce dossier, selon une organisation dite **SMACSS**.
 Tout fichier .scss est compilé avec ses dépendances (@import), pour ne générer, in fine, qu'un seul fichier CSS.
 
-Aucune connaissance CSS ne change, seules l'approche syntaxique et la logique de codage.
+Aucune nouvelle connaissance CSS n'est requise, seules sont touchées l'approche syntaxique et la logique de codage.
+
 Un fichier scss est compilé en son équivalent css.
+
 Un partial, **préfixé _**, est intégré à un fichier qui y recourt (@import).
+
 L'ordre d'appel des fichiers est décisif. P.ex. les variables et mixins doivent être déclarés en amont de leur emploi.
 
 Pour aller plus loin, se référer à la documentation SMACSS https://smacss.com, qui fait référence en la matière.
@@ -19,7 +22,7 @@ Peut aussi s'appeler styles.css, screen.css, etc
 ## /base
 
 Ce dossier contient :
-   * _vars.scss : la définition des variables du site (peut se trouver aussi à la racine /scss) ;
+   * _variables.scss : la définition des variables du site (peut se trouver aussi à la racine /scss) ;
    * _sanitize.scss ;
    * _base.scss : la redéfinition des éléments HTML et des sélecteurs de base.
 
@@ -27,8 +30,8 @@ Ce dossier contient :
 
 Ce dossier contient :
    * les partials propres aux segments du site (_layout.scss, _header.scss, _footer.scss), **préfixés .l-**. Chaque partial contient les media queries qui lui sont propres ;
-   * _helpful-classes.scss : les classes fournies par initializr utiles pour le layout (hidden, invisible, clearfix, etc) ;
-   * un éventuel gridding system, distribué en SCSS. Avantage : un GS peut être reconfiguré à tout moment, et épargne ainsi tout re-téléchargement.
+   * _helper-classes.scss : les classes fournies par initializr utiles pour le layout (hidden, invisible, clearfix, etc) ;
+   * un éventuel gridding system, distribué en SCSS. Avantage : un GS peut être reconfiguré à tout moment, sans nécessiter un nouveau téléchargement.
 
 Le champ de /layout est limité à définir le comportement des régions de contenu et les règles de composition générales.
 Lire http://www.nicoespeon.com/fr/2013/05/tombez-pour-smacss/ pour plus de détail sur le sujet.
@@ -53,7 +56,7 @@ Ces classes sont particulièrement utiles pour décrire les états des objets du
 Ce dossier contient :
    * les partials propres à l'apparence des objets du site (fontes, couleurs, arrière-plans).
 
-Difficile à exploiter, car il requiert un degré élevé d'abstraction du code.
+Délicat à exploiter, car il requiert un degré élevé d'abstraction du code.
 
 ## _shame.scss
 
@@ -64,5 +67,6 @@ Dans la pratique, certains bouts de code ne sont pas immédiatement classables. 
 Ce fichier regroupe les styles propres à l'impression. Il peut s'agir par défaut de ceux fournis par initializr, ou proposer une mise en page totalement différente.
 
 ---
-TODO : documenter les dossiers (SMACSS), usage de partials, nomenclature des classes (anglais et bas de casse), préfixage .l-, .t- et .[module]-
+
+TODO : nomenclature des classes (anglais et bas de casse),
        what's next : approche BEM, PUG, etc
