@@ -46,7 +46,7 @@ img {
     width: 100%; /* adaptation des images aux conteneurs */
 }
 
-/* copier les déclarations hr et fieldset d'Initializr ici */
+/* copier les declarations hr et fieldset d'Initializr ici */
 
 ```
 

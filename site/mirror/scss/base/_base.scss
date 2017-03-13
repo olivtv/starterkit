@@ -5,3 +5,23 @@
 // ====================================
 // elements
 // ====================================
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    min-height: 100vh; /* force la hauteur de body */
+    position: relative; /* impose un positionnement */
+
+    text-rendering: optimizeLegibility !important; /* lissage des fontes */
+    -webkit-font-smoothing: antialiased !important; /* lissage des fontes */
+}
+
+img {
+    height: auto;
+    width: 100%; /* adaptation des images aux conteneurs */
+}
+
+/* copier les declarations hr et fieldset d'Initializr ici */
