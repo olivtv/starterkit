@@ -10,16 +10,16 @@
 // base rules
 // ====================================
 
-@import "module/variables";
-@import "module/sanitize";
-@import "module/base";
+@import "base/variables";
+@import "base/sanitize";
+@import "base/base";
 
 
 // ====================================
 // layout rules
 // ====================================
 
-@import "layout/helper_classes";
+@import "layout/helper-classes";
 //@import "layout/layout";
 
 
