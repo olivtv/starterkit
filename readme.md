@@ -50,8 +50,6 @@ img {
 
 ```
 
-5. placer un éventuel gridding system dans layout
-
 ---
 
 TODO
