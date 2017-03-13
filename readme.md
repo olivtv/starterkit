@@ -1,6 +1,8 @@
 # starterkit
 
-Ce starterkit est un work in progress. Il a pour vocation d'harmoniser les pratiques de création de site au sein des années d'enseignement web de l'établissement eikon http://www.eikonc.ch.
+Ce starterkit est un work in progress. Il a pour vocation d'harmoniser les pratiques de création de site au sein des années d'enseignement web de l'établissement eikon http://www.eikon.ch.
+
+---
 
 ## workflow
 
