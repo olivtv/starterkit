@@ -1,1 +1,1 @@
-# /site/mirror/scss
+# /scss
