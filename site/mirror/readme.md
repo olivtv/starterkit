@@ -37,7 +37,7 @@ Ce dossier rassemble toutes les ressources destinées à produire le ou les fich
 ## icônes
 
 Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et Windows 9+. A conserver dans leurs dimensions initiales.
-   * apple-touch-icon.png
+   * icon.png
    * favicon.ico (ou favicon.png)
    * tile-wide.png
    * tile.png
