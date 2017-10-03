@@ -7,7 +7,7 @@ Aucune nouvelle connaissance CSS n'est requise, seules sont touchées l'approche
 
 Un fichier scss est compilé en son équivalent css.
 
-Un partial, **préfixé _**, est intégré à un fichier qui y recourt (@import).
+Un partial, **préfixé _**, est intégré à un fichier qui y recourt (@import). Il n'est pas compilé en son équivalent css.
 
 L'ordre d'appel des fichiers est décisif. P.ex. les variables et mixins doivent être déclarés en amont de leur emploi.
 
@@ -22,15 +22,12 @@ Peut aussi s'appeler styles.css, screen.css, etc
 ## /base
 
 Ce dossier contient :
-   * _variables.scss : la définition des variables du site (peut se trouver aussi à la racine /scss) ;
-   * _sanitize.scss ;
    * _base.scss : la redéfinition des éléments HTML et des sélecteurs de base.
 
 ## /layout
 
 Ce dossier contient :
    * les partials propres aux segments du site (_layout.scss, _header.scss, _footer.scss), **préfixés .l-**. Chaque partial contient les media queries qui lui sont propres ;
-   * _helper-classes.scss : les classes fournies par initializr utiles pour le layout (hidden, invisible, clearfix, etc) ;
    * un éventuel gridding system, distribué en SCSS. Avantage : un GS peut être reconfiguré à tout moment, sans nécessiter un nouveau téléchargement.
 
 Le champ de /layout est limité à définir le comportement des régions de contenu et les règles de composition générales.
@@ -39,10 +36,10 @@ Lire http://www.nicoespeon.com/fr/2013/05/tombez-pour-smacss/ pour plus de déta
 ## /module
 
 Ce dossier contient :
-   * les modules de contenu, contenus dans les régions, intitulés **.[module]-**. Chaque module peut être l'objet d'un partial, ou faire partie d'un fichier plus conséquent, selon les besoins.
+   * les modules intégrés aux régions du layout, intitulés **.[module]-**. Chaque module peut être l'objet d'un partial ou faire partie intégrante d'un fichier global, selon la modularité du projet.
    
 Les modules sont réutilisables. Pensez à leur attribuer des noms logiques, et à les spécialiser selon leur contexte.
-Lire http://maintainablecss.com pour aller plus loin en BEM.
+[//]: # (Lire http://maintainablecss.com pour aller plus loin.)
 
 ## /state
 
@@ -58,15 +55,20 @@ Ce dossier contient :
 
 Délicat à exploiter, car il requiert un degré élevé d'abstraction du code.
 
+## /tools
+
+Ce dossier contient :
+   * _variables.scss : la définition des variables du site (peut se trouver aussi à la racine /scss) ;
+   * _sanitize.scss ;
+   * _helper-classes.scss : les classes fournies par html5boilerplate utiles pour le layout (hidden, invisible, clearfix, etc) ;
+   * les partials contenant les mixins
+
 ## _shame.scss
 
 Dans la pratique, certains bouts de code ne sont pas immédiatement classables. Ils trouveront leur place **temporaire** dans ce partial.
 
 ## print.scss
 
-Ce fichier regroupe les styles propres à l'impression. Il peut s'agir par défaut de ceux fournis par initializr, ou proposer une mise en page totalement différente.
+Ce fichier regroupe les styles propres à l'impression. Il peut s'agir par défaut de ceux fournis par html5boilerplate, ou proposer une mise en page totalement différente.
 
----
-
-TODO : nomenclature des classes (anglais et bas de casse),
-       what's next : approche BEM, PUG, etc
+[//]: # (TODO : nomenclature des classes – anglais et bas de casse)

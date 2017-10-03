@@ -1,17 +1,24 @@
 @charset "UTF-8";
 
 // ==========================================================================
-// main.scss
+// project     : 
 // author      : @
 // description : ...
 // ==========================================================================
+
+
+// ====================================
+// tools and mixins
+// ====================================
+
+@import "tools/variables";
+@import "tools/sanitize";
+
 
 // ====================================
 // base rules
 // ====================================
 
-@import "base/variables";
-@import "base/sanitize";
 @import "base/base";
 
 
@@ -19,7 +26,6 @@
 // layout rules
 // ====================================
 
-@import "layout/helper-classes";
 //@import "layout/layout";
 
 
@@ -45,7 +51,8 @@
 
 
 // ====================================
-// _shame.scss
+// misc
 // ====================================
 
+@import "tools/helper-classes";
 @import "shame";

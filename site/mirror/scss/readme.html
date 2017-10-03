@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="scss">/scss</h1>
+
+<p>Les fichiers SCSS sont regroupés dans ce dossier, selon une organisation dite <strong>SMACSS</strong>.
+Tout fichier .scss est compilé avec ses dépendances (@import), pour ne générer, in fine, qu&#8217;un seul fichier CSS.</p>
+
+<p>Aucune nouvelle connaissance CSS n&#8217;est requise, seules sont touchées l&#8217;approche syntaxique et la logique de codage.</p>
+
+<p>Un fichier scss est compilé en son équivalent css.</p>
+
+<p>Un partial, <strong>préfixé _</strong>, est intégré à un fichier qui y recourt (@import). Il n&#8217;est pas compilé en son équivalent css.</p>
+
+<p>L&#8217;ordre d&#8217;appel des fichiers est décisif. P.ex. les variables et mixins doivent être déclarés en amont de leur emploi.</p>
+
+<p>Pour aller plus loin, se référer à la documentation SMACSS https://smacss.com, qui fait référence en la matière.
+Tester les syntaxes SCSS (compilées à la volée) sur http://www.sassmeister.com et http://codepen.io.</p>
+
+<h2 id="main.scss">main.scss</h2>
+
+<p>Ce fichier est l&#8217;élément fondateur, qui génèrera la feuille de style correspondante (css/main.css).
+Peut aussi s&#8217;appeler styles.css, screen.css, etc</p>
+
+<h2 id="base">/base</h2>
+
+<p>Ce dossier contient :
+ * _base.scss : la redéfinition des éléments HTML et des sélecteurs de base.</p>
+
+<h2 id="layout">/layout</h2>
+
+<p>Ce dossier contient :
+ * les partials propres aux segments du site (_layout.scss, _header.scss, _footer.scss), <strong>préfixés .l-</strong>. Chaque partial contient les media queries qui lui sont propres ;
+ * un éventuel gridding system, distribué en SCSS. Avantage : un GS peut être reconfiguré à tout moment, sans nécessiter un nouveau téléchargement.</p>
+
+<p>Le champ de /layout est limité à définir le comportement des régions de contenu et les règles de composition générales.
+Lire http://www.nicoespeon.com/fr/2013/05/tombez-pour-smacss/ pour plus de détail sur le sujet.</p>
+
+<h2 id="module">/module</h2>
+
+<p>Ce dossier contient :
+ * les modules intégrés aux régions du layout, intitulés <strong>.<a href="#module">module</a>-</strong>. Chaque module peut être l&#8217;objet d&#8217;un partial ou faire partie intégrante d&#8217;un fichier global, selon la modularité du projet.</p>
+
+<p>Les modules sont réutilisables. Pensez à leur attribuer des noms logiques, et à les spécialiser selon leur contexte.
+<a href="#" title="TODO : nomenclature des classes – anglais et bas de casse">//</a>: # (Lire http://maintainablecss.com pour aller plus loin.)</p>
+
+<h2 id="state">/state</h2>
+
+<p>Ce dossier contient :
+ * les partials propres aux états des objets du site, <strong>préfixés .is- ou .has-</strong>.</p>
+
+<p>Ces classes sont particulièrement utiles pour décrire les états des objets du site, et y accéder par le biais de JavaScript.</p>
+
+<h2 id="theme">/theme</h2>
+
+<p>Ce dossier contient :
+ * les partials propres à l&#8217;apparence des objets du site (fontes, couleurs, arrière-plans).</p>
+
+<p>Délicat à exploiter, car il requiert un degré élevé d&#8217;abstraction du code.</p>
+
+<h2 id="tools">/tools</h2>
+
+<p>Ce dossier contient :
+ * _variables.scss : la définition des variables du site (peut se trouver aussi à la racine /scss) ;
+ * _sanitize.scss ;
+ * _helper-classes.scss : les classes fournies par html5boilerplate utiles pour le layout (hidden, invisible, clearfix, etc) ;
+ * les partials contenant les mixins</p>
+
+<h2 id="_shame.scss">_shame.scss</h2>
+
+<p>Dans la pratique, certains bouts de code ne sont pas immédiatement classables. Ils trouveront leur place <strong>temporaire</strong> dans ce partial.</p>
+
+<h2 id="print.scss">print.scss</h2>
+
+<p>Ce fichier regroupe les styles propres à l&#8217;impression. Il peut s&#8217;agir par défaut de ceux fournis par html5boilerplate, ou proposer une mise en page totalement différente.</p>
+
+</body>
+</html>
