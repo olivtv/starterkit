@@ -12,13 +12,13 @@
 // ====================================
 
 @import "tools/variables";
-@import "tools/sanitize";
 
 
 // ====================================
 // base rules
 // ====================================
 
+@import "base/sanitize";
 @import "base/base";
 
 

@@ -22,6 +22,7 @@ Peut aussi s'appeler styles.css, screen.css, etc
 ## /base
 
 Ce dossier contient :
+   * _sanitize.scss ;
    * _base.scss : la redéfinition des éléments HTML et des sélecteurs de base.
 
 ## /layout
@@ -59,7 +60,6 @@ Délicat à exploiter, car il requiert un degré élevé d'abstraction du code.
 
 Ce dossier contient :
    * _variables.scss : la définition des variables du site (peut se trouver aussi à la racine /scss) ;
-   * _sanitize.scss ;
    * _helper-classes.scss : les classes fournies par html5boilerplate utiles pour le layout (hidden, invisible, clearfix, etc) ;
    * les partials contenant les mixins
 
