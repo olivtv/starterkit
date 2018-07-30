@@ -5,7 +5,6 @@ Contient le site à proprement parler. Les dossiers et fichiers présents à ce 
 ## /css
 
 Ce dossier comporte les feuilles de style en exploitation sur le site.
-Dans le cas d'un projet basé sur SCSS, il convient qu'il soit **initialement vide** afin que le compilateur y crée les fichiers.
 
 ## /fonts
 
@@ -29,10 +28,6 @@ Ce dossier contient les scripts et frameworks utiles dans le langage JavaScript.
    * /vendor : rassemble les scripts tierce-partie (jQuery, modernizer)
    * plugins.js : collecte les plugins, afin de limiter les requêtes http
    * main.js : scripts du site à proprement parler
-
-## /scss
-
-Ce dossier rassemble toutes les ressources destinées à produire le ou les fichiers css, grâce à un compilateur.
 
 ## icônes
 
