@@ -9,7 +9,6 @@
 // base rules & helpers
 // ==================================*/
 
-@import "base/sanitize.css";
 @import "base/base.css";
 @import "tools/helper-classes.css";
 
